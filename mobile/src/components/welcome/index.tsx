@@ -5,7 +5,11 @@ import { s } from './styles'
 export function Welcome() {
   return (
     <View>
-      <Image source={require('@/assets/logo.png')} style={s.logo} />
+      <Image
+        source={require('@/assets/logo.png')}
+        style={s.logo}
+        alt={'Logo'}
+      />
 
       <Text style={s.title}>Boas vindas ao Nearby</Text>
       <Text style={s.subtitle}>
